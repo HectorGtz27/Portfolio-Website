@@ -1,0 +1,29 @@
+[
+  {
+    "role": "Technological Scientific-Based Entrepreneurship Program (EBCT)",
+    "organisation": "TEC",
+    "startDate": "Jan, 2024",
+    "endDate": "Present",
+    "experiences": ["Focused on fire trajectory prediction using technology and science", " Part of a team applying machine learning for fire prevention"],
+    "imageSrc": "history/tec.png"
+  },
+  {
+    "role": "Space Apps Challenge Global Finalist",
+    "organisation": "NASA",
+    "startDate": "Oct, 2023",
+    "endDate": "Jan, 2024",
+    "experiences": [" Part of the best top 40 projects in a global NASA competition", "Developed an accurate wildfire prediction system", "Worked with modern web technologies and data visualization tools."],
+    "imageSrc": "history/nasa.png"
+  },
+  {
+    "role": "Member of Borrebots #4782 Robotics Team",
+    "organisation": "FIRST",
+    "startDate": "Aug, 2021",
+    "endDate": "Apr, 2022",
+    "experiences": [
+      "Reached the semifinals in a national competition",
+      " Utilized programming, mechanics, and electronics to build a competition robot"
+    ],
+    "imageSrc": "history/first.png"
+  }
+]
