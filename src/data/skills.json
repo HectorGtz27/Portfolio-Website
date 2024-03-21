@@ -24,6 +24,46 @@
     "imageSrc": "skills/javascript.png"
   },
   {
+    "title": "Node.js",
+    "imageSrc": "skills/node.png"
+  },
+  {
+    "title": "Tailwind CSS",
+    "imageSrc": "skills/tailwind.png"
+  },
+  {
+    "title": "Bootstrap",
+    "imageSrc": "skills/Bootstrap.svg"
+  },
+  {
+    "title": "Express.js",
+    "imageSrc": "skills/EXPRESS.png"
+  },
+  {
+    "title": "Sequalize",
+    "imageSrc": "skills/sequalize.png"
+  },
+  {
+    "title": "MySQL",
+    "imageSrc": "skills/mysql.png"
+  },
+  {
+    "title": "PostgreSQL",
+    "imageSrc": "skills/postgresql.png"
+  },
+  {
+    "title": "TypeScript",
+    "imageSrc": "skills/typescript.png"
+  },
+  {
+    "title": "Figma",
+    "imageSrc": "skills/figma.png"
+  },
+  {
+    "title": "Postman",
+    "imageSrc": "skills/postman.png"
+  },
+  {
     "title": "MATLAB",
     "imageSrc": "skills/matlab.png"
   },

@@ -3,23 +3,58 @@
     "title": "Wildfire Tracker Web Application",
     "imageSrc": "projects/project1.png",
     "description": "Top 40 NASA Project focused on improving wildfire prediction with an 82.35% accurate model combining Convolutional Neural Network and LSTM technologies. We developed a responsive web app utilizing React.js, Next.js, TypeScript for reliability, Mapbox for 3D visualization, Tailwind CSS for UI design, and Vercel for hosting. This work aimed to advance wildfire management in underserved areas with limited connectivity.",
-    "skills": ["React",  "Next.js", "TypeScript","Tailwind CSS", "HTML", "Python", "Machine Learning", "LoRaWAN" ],
+    "skills": [
+      "React",
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "HTML",
+      "Python",
+      "Machine Learning",
+      "LoRaWAN"
+    ],
     "demo": "https://phoenix-aneu.vercel.app/",
     "source": "https://github.com/jbric16/FlameForecast_Project?tab=readme-ov-file#-wildfire-tracker-web-application"
   },
   {
-    "title": "Phoenix Eye Website",
-    "imageSrc": "projects/project2.png",
-    "description": "I designed and programmed the Phoenix Eye project's website, a demo that highlights our wildfire prediction project. This platform provides a glimpse into the project's potential effectiveness and features showcasing machine learning capabilities, simulated customer testimonials, and hypothetical support from partnering companies. The website, stemming from our acclaimed Rocket Hacks initiative, serves as a key informational and engagement tool for underserved communities and stakeholders interested in advanced wildfire management concepts.",
-    "skills": ["HTML", "CSS", "JavaScript"],
-    "demo": "https://hectorgtz27.github.io/PhoenixEye-Website/",
-    "source": "https://github.com/HectorGtz27/PhoenixEye-Website"
+    "title": "SIPO API Development for Encora Inc.",
+    "imageSrc": "projects/LOGOSIPO.png",
+    "description": "The SIPO project at Encora Inc. crafted a RESTful API for talent management using TypeScript and NodeJS, guided by the MVC design pattern. Teams worked in pairs on a git-based workflow, focusing on CRUD functionalities and thorough API testing with Postman. The project's source code is hosted on git, showcasing our application of modern web development standards.",
+    "skills": [
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Sequelize",
+      "Postman",
+      "REST APIs",
+      "Git",
+      "Model View Controller"
+    ],
+    "demo": "https://github.com/SIPO-E2/3.7.4-Seminario-Evaluativo",
+    "source": "https://github.com/SIPO-E2/3.7.4-Seminario-Evaluativo"
+  },
+  {
+    "title": "InnovaCompras 🚀",
+    "imageSrc": "projects/InnovaCompras.png",
+    "description": "In a team effort, we developed a TypeScript-based web application for product management, incorporating API interactions for CRUD functionalities. The project, featuring a responsive Bootstrap design, search capabilities, and real-time form validation feedback, was deployed on Vercel. It underscores our collective proficiency in front-end development, collaboration, and modern web deployment techniques.",
+    "skills": [
+      "TypeScript",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Bootstrap",
+      "Vercel",
+      "API Integration"
+    ],
+    "demo": "https://seminario-evaluativo.vercel.app",
+    "source": "https://github.com/SIPO-E2/3.5.2-Seminario-Evaluativo"
   },
   {
     "title": "Video Streaming App",
     "imageSrc": "projects/project3.jpg",
     "description": "In this project, we engineered a real-time video streaming application using C++ and object-oriented programming (OOP). The goal was to capture, process, and transmit live video streams. I used UML diagrams for design and managed source code on GitHub for efficient collaboration with the team. This project offered valuable experience in a dynamic era of on-demand video streaming.",
-    "skills": ["C++", "UML", "Github" ,"Object Oriented Programming (OOP)"],
+    "skills": ["C++", "UML", "Github", "Object Oriented Programming (OOP)"],
     "demo": "https://github.com/HectorGtz27/VideoStreamingApp",
     "source": "https://github.com/HectorGtz27/VideoStreamingApp"
   },
@@ -35,18 +70,11 @@
     "title": "Items Exchange System: Bridging Suppliers and Buyers",
     "imageSrc": "projects/project8.png",
     "description": "In collaboration with a team of three colleagues we developed an Items Exchange System using C++ and OOP principles. This program connects suppliers and buyers in a user-friendly platform. Suppliers showcase their products, and buyers find the best fit for their needs. I used UML diagrams for design clarity and managed source code through GitHub for efficient collaboration. This project streamlines transactions in a dynamic marketplace.",
-    "skills": ["C++", "UML", "Github" ,"Object Oriented Programming (OOP)"],
+    "skills": ["C++", "UML", "Github", "Object Oriented Programming (OOP)"],
     "demo": "https://github.com/HectorGtz27/Items-Exchange-System-Simulation",
     "source": "https://github.com/HectorGtz27/Items-Exchange-System-Simulation"
   },
-  {
-    "title": "Youtube Clone",
-    "imageSrc": "projects/youtubepage.png",
-    "description": "This project is a comprehensive replication of YouTube, one of the world's most popular video-sharing platforms, designed to demonstrate my proficiency in front-end development. The core of this project was built using HTML and CSS, focusing on creating a responsive and user-friendly interface that closely mimics the original YouTube site. Key features include a dynamic homepage displaying trending videos, a search functionality to explore videos, and individual video playback pages with details and recommended videos. Special attention was paid to the layout, ensuring that elements such as the navigation bar, video thumbnails, and comment sections are accurately represented.",
-    "skills": ["HTML", "CSS"],
-    "demo": "https://hectorgtz27.github.io/YoutubeClone/",
-    "source": "https://github.com/HectorGtz27/YoutubeClone"
-  },
+
   {
     "title": "James Webb Space Telescope Interactive Project",
     "imageSrc": "projects/project9.png",
@@ -73,12 +101,52 @@
     "source": "https://github.com/HectorGtz27/Geographic-analysis-of-SARS-CoV-2-sequences"
   },
   {
+    "title": "Pig Game",
+    "imageSrc": "projects/PIGAME.png",
+    "description": "The Pig Game project showcases my proficiency in JavaScript and UI/UX design, emphasizing an intuitive and engaging user interface. By employing DOM manipulation and event handling, I created a game that balances simplicity with interactive gameplay. This endeavor highlights my capability to design seamless user experiences and responsive web applications, focusing on straightforward game mechanics and visual clarity.",
+    "skills": ["JavaScript", "HTML", "CSS", "DOM", "UI/UX"],
+    "demo": "https://hectorgtz27.github.io/Pig-Game/",
+    "source": "https://github.com/HectorGtz27/Rock-paper-scissors-game"
+  },
+  {
+    "title": "Guess the Number",
+    "imageSrc": "projects/guessNumber.png",
+    "description": " I developed a JavaScript game where users guess a number between 1 and 20, receiving hints and visual feedback. This includes background color changes and score adjustments to enhance user engagement. My work demonstrates expertise in JavaScript, DOM manipulation, and crafting intuitive user interactions.",
+    "skills": ["JavaScript", "HTML", "CSS", "DOM", "UI/UX"],
+    "demo": "https://hectorgtz27.github.io/GuessTheNumberGame/",
+    "source": "https://github.com/HectorGtz27/GuessTheNumberGame"
+  },
+  {
     "title": "Drop Tower Simulation",
     "imageSrc": "projects/project7.jpg",
     "description": "The drop tower is an attraction often found in amusement parks. Riders enter a gondola at ground level, the gondola rides up a vertical tower, then drops down. The brakes come on to stop the gondola as it approaches the bottom of the course. That way you experience free fall, followed by a sharp deceleration. One of the types of brakes used in these towers are magnetic, and they work based on eddy currents. With the help of the MATLAB language, we were able to simulate the behavior of these rides.",
     "skills": ["MATLAB"],
     "demo": "https://github.com/HectorGtz27/DropTowerSimulation",
     "source": "https://github.com/HectorGtz27/DropTowerSimulation"
-  }
+  },
+  {
+    "title": "Youtube Clone",
+    "imageSrc": "projects/youtubepage.png",
+    "description": "This project is a comprehensive replication of YouTube, one of the world's most popular video-sharing platforms, designed to demonstrate my proficiency in front-end development. The core of this project was built using HTML and CSS, focusing on creating a responsive and user-friendly interface that closely mimics the original YouTube site. Key features include a dynamic homepage displaying trending videos, a search functionality to explore videos, and individual video playback pages with details and recommended videos. Special attention was paid to the layout, ensuring that elements such as the navigation bar, video thumbnails, and comment sections are accurately represented.",
+    "skills": ["HTML", "CSS"],
+    "demo": "https://hectorgtz27.github.io/YoutubeClone/",
+    "source": "https://github.com/HectorGtz27/YoutubeClone"
+  },
+  {
+    "title": "Rock-Paper-Scissors Game Development",
+    "imageSrc": "projects/ROCKGAME.png",
+    "description": "I created a rock-paper-scissors game with JavaScript, featuring auto-play, real-time score updates, and keyboard shortcuts for enhanced interaction. The game logic, coupled with score persistence using local storage, showcases my proficiency in JavaScript, DOM manipulation, and event handling.",
+    "skills": ["JavaScript", "HTML", "CSS", "DOM", "Local Storage"],
+    "demo": "https://hectorgtz27.github.io/Rock-paper-scissors-game/",
+    "source": "https://github.com/HectorGtz27/Rock-paper-scissors-game"
+  },
 
+  {
+    "title": "Phoenix Eye Website",
+    "imageSrc": "projects/project2.png",
+    "description": "I designed and programmed the Phoenix Eye project's website, a demo that highlights our wildfire prediction project. This platform provides a glimpse into the project's potential effectiveness and features showcasing machine learning capabilities, simulated customer testimonials, and hypothetical support from partnering companies. The website, stemming from our acclaimed Rocket Hacks initiative, serves as a key informational and engagement tool for underserved communities and stakeholders interested in advanced wildfire management concepts.",
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "demo": "https://hectorgtz27.github.io/PhoenixEye-Website/",
+    "source": "https://github.com/HectorGtz27/PhoenixEye-Website"
+  }
 ]
