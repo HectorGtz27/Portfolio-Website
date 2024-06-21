@@ -19,7 +19,7 @@
   {
     "title": "SIPO API Development for Encora Inc.",
     "imageSrc": "projects/LOGOSIPO.png",
-    "description": "The SIPO project at Encora Inc. crafted a RESTful API for talent management using TypeScript and NodeJS, guided by the MVC design pattern. Teams worked in pairs on a git-based workflow, focusing on CRUD functionalities and thorough API testing with Postman. The project's source code is hosted on git, showcasing our application of modern web development standards.",
+    "description": "The SIPO project at Encora Inc. developed a RESTful API for talent management using TypeScript, NodeJS, ExpressJS, and Sequelize, with PostgreSQL as the database and OAuth with Microsoft credentials for authentication. This backend service, guided by the MVC design pattern, enhances resource visibility and optimizes the management of clients, projects, vacancies, and employees.",
     "skills": [
       "TypeScript",
       "Node.js",
@@ -31,8 +31,41 @@
       "Git",
       "Model View Controller"
     ],
-    "demo": "https://github.com/SIPO-E2/3.7.4-Seminario-Evaluativo",
-    "source": "https://github.com/SIPO-E2/3.7.4-Seminario-Evaluativo"
+    "demo": "https://github.com/HectorGtz27/SIPO-Backend",
+    "source": "https://github.com/HectorGtz27/SIPO-Backend"
+  },
+  {
+    "title": "SIPO Frontend Development for Encora Inc.",
+    "imageSrc": "projects/LOGOSIPO.png",
+    "description": "The SIPO project at Encora Inc. developed a user-friendly frontend application for talent management using React, Zustand, Tailwind CSS, and TypeScript. This frontend service, deployed with Vercel, provides an intuitive interface for managing clients, projects, vacancies, and employees, enhancing resource visibility and operational efficiency. It integrates seamlessly with the backend RESTful API, leveraging Postman for API testing and Figma for design.",
+    "skills": [
+      "TypeScript",
+      "React",
+      "Tailwind CSS",
+      "Zustand",
+      "Sequelize",
+      "API Integration",
+      "Git",
+      "Figma",
+      "Vercel"
+    ],
+    "demo": "https://github.com/HectorGtz27/SIPO-Frontend",
+    "source": "https://github.com/HectorGtz27/SIPO-Frontend"
+  },
+  {
+    "title": "Lexical Analyzer",
+    "imageSrc": "projects/LexicalAnalyzer.png",
+    "description": "This C++ project is a lexical analyzer for C, Python, and Racket code, specializing in syntax highlighting. It identifies keywords, literals, identifiers, operators, and special characters, generating HTML outputs that enhance readability. By converting S-expressions to regular expressions and escaping special characters, this project showcases expertise in C++, regex, and lexical analysis, improving code quality and analysis.",
+    "skills": [
+      "C++",
+      "Lexical Analysis",
+      "Regular Expressions",
+      "Syntax Highlighting",
+      "HTML",
+      "CSS"
+    ],
+    "demo": "https://github.com/HectorGtz27/Syntax-Highlighter",
+    "source": "https://github.com/HectorGtz27/Syntax-Highlighter"
   },
   {
     "title": "InnovaCompras 🚀",
@@ -100,6 +133,7 @@
     "demo": "https://rpubs.com/HectorGtz27/1040401",
     "source": "https://github.com/HectorGtz27/Geographic-analysis-of-SARS-CoV-2-sequences"
   },
+
   {
     "title": "Pig Game",
     "imageSrc": "projects/PIGAME.png",
