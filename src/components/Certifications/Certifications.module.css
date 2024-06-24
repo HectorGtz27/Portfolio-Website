@@ -5,6 +5,9 @@
   margin-top: 79px;
   margin-left: 10%;
   margin-right: 10%;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
 }
 
 .title {
@@ -20,40 +23,6 @@
   flex-direction: row;
   justify-content: space-evenly;
   margin-top: 14px;
-}
-
-.skills {
-  width: 45%;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 37px;
-}
-
-.skill {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 11px;
-}
-
-.skillImageContainer {
-  background-color: var(--color-secondary);
-  border-radius: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 120px;
-  height: 120px;
-}
-
-.skillImageContainer img {
-  width: 75px;
-}
-
-.skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
 }
 
 .history {
@@ -117,4 +86,22 @@
     width: 100%;
     gap: 9px;
   }
+}
+
+/* My CSS */
+
+.containerGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px; /* Espacio entre los elementos del grid */
+  padding: 16px;
+  margin-top: 20px;
+}
+
+.item {
+  background-color: #f0f0f0;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
 }
