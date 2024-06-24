@@ -68,6 +68,24 @@
     "source": "https://github.com/HectorGtz27/Syntax-Highlighter"
   },
   {
+    "title": "BIOSYNC: Advanced Urban Gardening Ecosystem",
+    "imageSrc": "projects/huerto.jpg",
+    "description": "Developed BIOSYNC, an IoT urban gardening system with NodeMCU ESP8266, integrating sensors for secure, real-time data via MQTT over WiFi. Created a Node-RED system with 2-second refresh rates and an interactive dashboard for monitoring. Used JIRA for agile project management, enhancing team collaboration and timely task delivery. This project refined my IoT, real-time data processing, and agile skills.",
+    "skills": [
+      "JIRA",
+      "Node-RED",
+      "C",
+      "MQTT",
+      "HTTPS",
+      "Mosquitto",
+      "Arduino",
+      "IoT",
+      "MySQL"
+    ],
+    "demo": "https://www.youtube.com/watch?v=J1zRKVIuBXo",
+    "source": "https://www.youtube.com/watch?v=J1zRKVIuBXo"
+  },
+  {
     "title": "InnovaCompras 🚀",
     "imageSrc": "projects/InnovaCompras.png",
     "description": "In a team effort, we developed a TypeScript-based web application for product management, incorporating API interactions for CRUD functionalities. The project, featuring a responsive Bootstrap design, search capabilities, and real-time form validation feedback, was deployed on Vercel. It underscores our collective proficiency in front-end development, collaboration, and modern web deployment techniques.",
