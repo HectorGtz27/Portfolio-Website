@@ -8,10 +8,17 @@
       "Next.js",
       "TypeScript",
       "Tailwind CSS",
-      "HTML",
       "Python",
       "Machine Learning",
-      "LoRaWAN"
+      "LoRaWAN",
+      "NumPy",
+      "Scikit-learn",
+      "Mapbox",
+      "Convolutional Neural Networks",
+      "Long Short-Term Memory Networks",
+      "Arduino",
+      "TensorFlow",
+      "Keras"
     ],
     "demo": "https://phoenix-aneu.vercel.app/",
     "source": "https://github.com/jbric16/FlameForecast_Project?tab=readme-ov-file#-wildfire-tracker-web-application"

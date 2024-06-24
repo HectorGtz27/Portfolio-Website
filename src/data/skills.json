@@ -70,5 +70,25 @@
   {
     "title": "R",
     "imageSrc": "skills/r.svg"
+  },
+  {
+    "title": "JIRA",
+    "imageSrc": "skills/jira.png"
+  },
+  {
+    "title": "Git",
+    "imageSrc": "skills/git.png"
+  },
+  {
+    "title": "C",
+    "imageSrc": "skills/C.png"
+  },
+  {
+    "title": "Keras",
+    "imageSrc": "skills/Keras.png"
+  },
+  {
+    "title": "Scikit-Learn",
+    "imageSrc": "skills/scikit-learn.png"
   }
 ]
