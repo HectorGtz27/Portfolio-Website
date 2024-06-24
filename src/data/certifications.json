@@ -1,0 +1,62 @@
+[
+  {
+    "name": "Perform Foundational Data, ML, and AI Tasks in Google Cloud",
+    "organization": "Google Cloud Training Online",
+    "imageSrc": "certifications/gcp.png",
+    "url": "https://www.cloudskillsboost.google/public_profiles/ad268911-b02f-4245-9973-ebf28ef49155/badges/5108466"
+  },
+  {
+    "name": "Google Cloud Computing Foundations: Data, ML, and AI in Google",
+    "organization": "Google",
+    "imageSrc": "certifications/google.png",
+    "url": "https://www.cloudskillsboost.google/public_profiles/ad268911-b02f-4245-9973-ebf28ef49155/badges/5097295"
+  },
+  {
+    "name": "Build and Secure Networks in Google Cloud",
+    "organization": "Google Cloud Training Online",
+    "imageSrc": "certifications/gcp.png",
+    "url": "https://www.cloudskillsboost.google/public_profiles/ad268911-b02f-4245-9973-ebf28ef49155/badges/5091973"
+  },
+  {
+    "name": "Google Cloud Computing Foundations: Networking & Security in Google Cloud",
+    "organization": "Google",
+    "imageSrc": "certifications/google.png",
+    "url": "https://www.cloudskillsboost.google/public_profiles/ad268911-b02f-4245-9973-ebf28ef49155/badges/5081929"
+  },
+  {
+    "name": "Perform Foundational Infrastructure Tasks in Google Cloud",
+    "organization": "Google Cloud Training Online",
+    "imageSrc": "certifications/gcp.png",
+    "url": "https://www.cloudskillsboost.google/public_profiles/ad268911-b02f-4245-9973-ebf28ef49155/badges/5005700"
+  },
+  {
+    "name": "Google Cloud Computing Foundations: Infrastructure in Google Cloud",
+    "organization": "Google",
+    "imageSrc": "certifications/google.png",
+    "url": "https://www.cloudskillsboost.google/public_profiles/ad268911-b02f-4245-9973-ebf28ef49155/badges/4981004"
+  },
+  {
+    "name": "Implement Load Balancing on Compute Engine",
+    "organization": "Google Cloud Training Online",
+    "imageSrc": "certifications/gcp.png",
+    "url": "https://www.cloudskillsboost.google/public_profiles/ad268911-b02f-4245-9973-ebf28ef49155/badges/4933418"
+  },
+  {
+    "name": "Google Cloud Computing Foundations: Cloud Computing Fundamentals",
+    "organization": "Google",
+    "imageSrc": "certifications/google.png",
+    "url": "https://www.cloudskillsboost.google/public_profiles/ad268911-b02f-4245-9973-ebf28ef49155/badges/4929428"
+  },
+  {
+    "name": "Yellow Belt Lean Six Sigma",
+    "organization": "International Lean Six Sigma",
+    "imageSrc": "certifications/leansix.png",
+    "url": ""
+  },
+  {
+    "name": "White Belt Lean Six Sigma",
+    "organization": "International Lean Six Sigma",
+    "imageSrc": "certifications/leansix.png",
+    "url": ""
+  }
+]

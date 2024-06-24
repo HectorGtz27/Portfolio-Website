@@ -1,7 +1,7 @@
 import React from "react";
 
 import styles from "./Certifications.module.css";
-import history from "../../data/history.json";
+import certificate from "../../data/certifications.json";
 import { getImageUrl } from "../../utils";
 
 export const Certifications = () => {
@@ -9,18 +9,24 @@ export const Certifications = () => {
     <section className={styles.container} id="certifications">
       <h2 className={styles.title}>Certifications</h2>
       <div className={styles.containerGrid}>
-        {history.map((historyItem, id) => {
+        {certificate.map((certificateItem, id) => {
           return (
-            <li key={id} className={styles.historyItem}>
-              <img
-                src={getImageUrl(historyItem.imageSrc)}
-                alt={`${historyItem.organisation} Logo`}
-              />
-              <div className={styles.historyItemDetails}>
-                <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
-                <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
-              </div>
-            </li>
+            <a
+              href={certificateItem.url}
+              target="_blank"
+              className={styles.link}
+            >
+              <li key={id} className={styles.certificateItem}>
+                <img
+                  src={getImageUrl(certificateItem.imageSrc)}
+                  className={styles.certificateImg}
+                />
+                <div className={styles.certificateItemDetails}>
+                  <h3>{certificateItem.name}</h3>
+                  <p>{certificateItem.organization}</p>
+                </div>
+              </li>
+            </a>
           );
         })}
       </div>
