@@ -28,7 +28,7 @@
   width: 100%;
 }
 
-/* MY STYLES */
+/* GRID CONFIG STYLES */
 
 .gridContainer {
   display: grid;
@@ -67,4 +67,45 @@
   .gridContainer {
     grid-template-columns: 1fr;
   }
+}
+/* TOP CARD STYLES */
+.topCardContainer {
+  background-color: blue;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.number {
+  font-size: 180px;
+}
+/* BOTTOM CARD STYLES */
+
+.bottomCard {
+  background-color: purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 20%;
+  align-items: center;
+}
+
+.sectionDescription {
+  text-align: left;
+}
+
+.sectionTitle {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.sectioSubtitle {
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 10px;
 }
