@@ -6,7 +6,7 @@ import Experience from "../components/Experience/Experience";
 import Projects from "../components/Projects/Projects";
 import Certifications from "../components/Certifications/Certifications";
 import Contact from "../components/Contact/Contact";
-import { Link } from "react-router-dom";
+
 import styles from "./MainScreen.module.css";
 
 function MainScreen() {
@@ -17,9 +17,6 @@ function MainScreen() {
       <About />
       <Experience />
       <Projects />
-      <Link to="/projects-info">
-        <div>Ir a Projects Info</div>
-      </Link>
       <Certifications />
       <Contact />
     </div>
