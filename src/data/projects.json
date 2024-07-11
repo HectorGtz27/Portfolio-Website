@@ -69,7 +69,7 @@
   },
   {
     "title": "Lexical Analyzer",
-    "Area": ["C++", "Lexical Analysis", "Syntax Highlighting"],
+    "Area": ["C++", "Lexical Analysis", "Syntax Highlighting", "Other"],
     "imageSrc": "projects/LexicalAnalyzer.png",
     "description": "This C++ project is a lexical analyzer for C, Python, and Racket code, specializing in syntax highlighting. It identifies keywords, literals, identifiers, operators, and special characters, generating HTML outputs that enhance readability. By converting S-expressions to regular expressions and escaping special characters, this project showcases expertise in C++, regex, and lexical analysis, improving code quality and analysis.",
     "skills": [
@@ -135,7 +135,7 @@
   },
   {
     "title": "Logistics Optimization in the Suez Canal",
-    "Area": ["C++", "Data Structures", "Algorithms"],
+    "Area": ["C++", "Data Structures", "Algorithms", "Other"],
     "imageSrc": "projects/project6.jpg",
     "description": "In this project, we utilized C++ to develop software for better product control and optimized routing through Canal posts. We employed various data structures, including Linked Lists, BSTs, Splay Trees, Heap Trees, Graphs, Hash Tables, and algorithms like Merge Sort and Binary Search to efficiently manage and retrieve data. The project's focus was on collecting and processing extensive data to improve logistics, avoiding bottlenecks, and ensuring timely deliveries through advanced data structures and algorithms.",
     "skills": ["C++", "Data Structures", "Github"],
@@ -213,7 +213,7 @@
   },
   {
     "title": "Drop Tower Simulation",
-    "Area": ["MATLAB", "Physics", "Simulation"],
+    "Area": ["MATLAB", "Physics", "Simulation", "Other"],
     "imageSrc": "projects/project7.jpg",
     "description": "The drop tower is an attraction often found in amusement parks. Riders enter a gondola at ground level, the gondola rides up a vertical tower, then drops down. The brakes come on to stop the gondola as it approaches the bottom of the course. That way you experience free fall, followed by a sharp deceleration. One of the types of brakes used in these towers are magnetic, and they work based on eddy currents. With the help of the MATLAB language, we were able to simulate the behavior of these rides.",
     "skills": ["MATLAB"],
