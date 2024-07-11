@@ -16,36 +16,40 @@ function Projects() {
           to="/projects-info"
           state={{ message: "Web Development" }}
         >
-          <div className={styles.gridItem}>
-            <div className={styles.topCardContainer}>
-              <p className={styles.number}>1</p>
-            </div>
-
-            <div className={styles.bottomCard}>
-              <div className={styles.sectionDescription}>
-                <p className={styles.sectionTitle}>Web Development</p>
-                <p className={styles.sectioSubtitle}>Info</p>
+          <div className={`${styles.gridItem} ${styles.item1}`}>
+            <div className={styles.gridItemContent}>
+              <div className={styles.topCardContainer}>
+                <p className={styles.number}>1</p>
               </div>
-              <FiArrowUpRight size={62} />
+
+              <div className={styles.bottomCard}>
+                <div className={styles.sectionDescription}>
+                  <p className={styles.sectionTitle}>Web Development</p>
+                  <p className={styles.sectioSubtitle}>Info</p>
+                </div>
+                <FiArrowUpRight size={62} />
+              </div>
             </div>
           </div>
         </Link>
         <Link
           className={styles.link}
           to="/projects-info"
-          state={{ message: "AI" }}
+          state={{ message: "Machine Learning" }}
         >
-          <div className={styles.gridItem}>
-            <div className={styles.topCardContainer}>
-              <p className={styles.number}>2</p>
-            </div>
-
-            <div className={styles.bottomCard}>
-              <div className={styles.sectionDescription}>
-                <p className={styles.sectionTitle}>AI</p>
-                <p className={styles.sectioSubtitle}>Info</p>
+          <div className={`${styles.gridItem} ${styles.item2}`}>
+            <div className={styles.gridItemContent}>
+              <div className={styles.topCardContainer}>
+                <p className={styles.number}>2</p>
               </div>
-              <FiArrowUpRight size={62} />
+
+              <div className={styles.bottomCard}>
+                <div className={styles.sectionDescription}>
+                  <p className={styles.sectionTitle}>Machine Learning</p>
+                  <p className={styles.sectioSubtitle}>Info</p>
+                </div>
+                <FiArrowUpRight size={62} />
+              </div>
             </div>
           </div>
         </Link>
@@ -54,17 +58,19 @@ function Projects() {
           to="/projects-info"
           state={{ message: "IoT" }}
         >
-          <div className={styles.gridItem}>
-            <div className={styles.topCardContainer}>
-              <p className={styles.number}>3</p>
-            </div>
-
-            <div className={styles.bottomCard}>
-              <div className={styles.sectionDescription}>
-                <p className={styles.sectionTitle}>IoT</p>
-                <p className={styles.sectioSubtitle}>Info</p>
+          <div className={`${styles.gridItem} ${styles.item3}`}>
+            <div className={styles.gridItemContent}>
+              <div className={styles.topCardContainer}>
+                <p className={styles.number}>3</p>
               </div>
-              <FiArrowUpRight size={62} />
+
+              <div className={styles.bottomCard}>
+                <div className={styles.sectionDescription}>
+                  <p className={styles.sectionTitle}>IoT</p>
+                  <p className={styles.sectioSubtitle}>Info</p>
+                </div>
+                <FiArrowUpRight size={62} />
+              </div>
             </div>
           </div>
         </Link>
@@ -73,17 +79,19 @@ function Projects() {
           to="/projects-info"
           state={{ message: "Object Oriented Programming" }}
         >
-          <div className={styles.gridItem}>
-            <div className={styles.topCardContainer}>
-              <p className={styles.number}>4</p>
-            </div>
-
-            <div className={styles.bottomCard}>
-              <div className={styles.sectionDescription}>
-                <p className={styles.sectionTitle}>Object Oriented</p>
-                <p className={styles.sectioSubtitle}>Info</p>
+          <div className={`${styles.gridItem} ${styles.item4}`}>
+            <div className={styles.gridItemContent}>
+              <div className={styles.topCardContainer}>
+                <p className={styles.number}>4</p>
               </div>
-              <FiArrowUpRight size={62} />
+
+              <div className={styles.bottomCard}>
+                <div className={styles.sectionDescription}>
+                  <p className={styles.sectionTitle}>Object Oriented</p>
+                  <p className={styles.sectioSubtitle}>Info</p>
+                </div>
+                <FiArrowUpRight size={62} />
+              </div>
             </div>
           </div>
         </Link>
@@ -92,17 +100,19 @@ function Projects() {
           to="/projects-info"
           state={{ message: "Game Development" }}
         >
-          <div className={styles.gridItem}>
-            <div className={styles.topCardContainer}>
-              <p className={styles.number}>5</p>
-            </div>
-
-            <div className={styles.bottomCard}>
-              <div className={styles.sectionDescription}>
-                <p className={styles.sectionTitle}>Game Development</p>
-                <p className={styles.sectioSubtitle}>Info</p>
+          <div className={`${styles.gridItem} ${styles.item5}`}>
+            <div className={styles.gridItemContent}>
+              <div className={styles.topCardContainer}>
+                <p className={styles.number}>5</p>
               </div>
-              <FiArrowUpRight size={62} />
+
+              <div className={styles.bottomCard}>
+                <div className={styles.sectionDescription}>
+                  <p className={styles.sectionTitle}>Game Development</p>
+                  <p className={styles.sectioSubtitle}>Info</p>
+                </div>
+                <FiArrowUpRight size={62} />
+              </div>
             </div>
           </div>
         </Link>
@@ -111,17 +121,19 @@ function Projects() {
           to="/projects-info"
           state={{ message: "Other" }}
         >
-          <div className={styles.gridItem}>
-            <div className={styles.topCardContainer}>
-              <p className={styles.number}>6</p>
-            </div>
-
-            <div className={styles.bottomCard}>
-              <div className={styles.sectionDescription}>
-                <p className={styles.sectionTitle}>Other</p>
-                <p className={styles.sectioSubtitle}>Info</p>
+          <div className={`${styles.gridItem} ${styles.item6}`}>
+            <div className={styles.gridItemContent}>
+              <div className={styles.topCardContainer}>
+                <p className={styles.number}>6</p>
               </div>
-              <FiArrowUpRight size={62} />
+
+              <div className={styles.bottomCard}>
+                <div className={styles.sectionDescription}>
+                  <p className={styles.sectionTitle}>Other</p>
+                  <p className={styles.sectioSubtitle}>Info</p>
+                </div>
+                <FiArrowUpRight size={62} />
+              </div>
             </div>
           </div>
         </Link>

@@ -5,27 +5,48 @@
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
-  background-color: red;
   display: flex;
   flex-direction: column;
 }
 
-.title {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
+/* TOP CARD STYLES */
+.topCardContainer {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.projects {
-  margin-top: 37px;
+.link {
+  text-decoration: none;
+}
+
+.number {
+  font-size: 180px;
+}
+/* BOTTOM CARD STYLES */
+
+.bottomCard {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 20%;
   align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
+}
+
+.sectionDescription {
+  text-align: left;
+}
+
+.sectionTitle {
+  font-size: 34px;
+  font-weight: 500;
+}
+
+.sectioSubtitle {
+  font-size: 28px;
+  font-weight: 300;
+  margin-top: 10px;
 }
 
 /* GRID CONFIG STYLES */
@@ -37,12 +58,67 @@
 }
 
 .gridItem {
-  background-color: #4caf50;
+  position: relative;
   color: white;
   padding: 20px;
   text-align: center;
   font-size: 30px;
-  height: 600px;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  transition: color 0.3s ease;
+}
+
+.gridItem::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 0;
+}
+.gridItem.item1::before {
+  background-image: url("../../../assets/projects/sectionImages/web.jpg");
+}
+
+.gridItem.item2::before {
+  background-image: url("../../../assets/projects/sectionImages/AI2.jpg");
+}
+
+.gridItem.item3::before {
+  background-image: url("../../../assets/projects/sectionImages/IoT.png");
+}
+
+.gridItem.item4::before {
+  background-image: url("../../../assets/projects/sectionImages/oop.jpeg");
+}
+
+.gridItem.item5::before {
+  background-image: url("../../../assets/projects/sectionImages/gamedev.jpeg");
+}
+
+.gridItem.item6::before {
+  background-image: url("../../../assets/projects/sectionImages/other.jpg");
+}
+
+.gridItem:hover::before {
+  opacity: 0.5;
+}
+
+.gridItem:hover {
+  color: white;
+}
+
+.gridItemContent {
+  position: relative;
+  z-index: 10;
+  height: 800px;
 }
 
 @media (min-width: 1200px) {
@@ -67,45 +143,4 @@
   .gridContainer {
     grid-template-columns: 1fr;
   }
-}
-/* TOP CARD STYLES */
-.topCardContainer {
-  background-color: blue;
-  height: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.link {
-  text-decoration: none;
-}
-
-.number {
-  font-size: 180px;
-}
-/* BOTTOM CARD STYLES */
-
-.bottomCard {
-  background-color: purple;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  height: 20%;
-  align-items: center;
-}
-
-.sectionDescription {
-  text-align: left;
-}
-
-.sectionTitle {
-  font-size: 34px;
-  font-weight: 500;
-}
-
-.sectioSubtitle {
-  font-size: 28px;
-  font-weight: 300;
-  margin-top: 10px;
 }
