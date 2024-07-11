@@ -1,23 +1,16 @@
-import styles from "./App.module.css";
-import { Hero } from "./components/Hero/Hero";
-import { Navbar } from "./components/Navbar/Navbar";
-import { About } from "./components/About/About";
-import { Experience } from "./components/Experience/Experience";
-import { Projects } from "./components/Projects/Projects";
-import { Contact } from "./components/Contact/Contact";
-import { Certifications } from "./components/Certifications/Certifications";
+import React from "react";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import MainScreen from "./screens/MainScreen";
+import ProjectInfoScreen from "./screens/ProjectInfoScreen";
 
 function App() {
   return (
-    <div className={styles.App}>
-      <Navbar />
-      <Hero />
-      <About />
-      <Experience />
-      <Projects />
-      <Certifications />
-      <Contact />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<MainScreen />} />
+        <Route path="/projects-info" element={<ProjectInfoScreen />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import styles from "./Navbar.module.css";
 import { getImageUrl } from "../../utils";
 
-export const Navbar = () => {
+function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
@@ -45,4 +45,6 @@ export const Navbar = () => {
       </div>
     </nav>
   );
-};
+}
+
+export default Navbar;

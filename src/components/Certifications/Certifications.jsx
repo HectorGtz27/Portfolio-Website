@@ -4,7 +4,7 @@ import styles from "./Certifications.module.css";
 import certificate from "../../data/certifications.json";
 import { getImageUrl } from "../../utils";
 
-export const Certifications = () => {
+function Certifications() {
   return (
     <section className={styles.container} id="certifications">
       <h2 className={styles.title}>Certifications</h2>
@@ -32,4 +32,6 @@ export const Certifications = () => {
       </div>
     </section>
   );
-};
+}
+
+export default Certifications;

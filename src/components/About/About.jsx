@@ -19,7 +19,10 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Tech Enthusiast</h3>
               <p>
-              As a computer science engineer, I am deeply passionate about technology, with a strong focus on Web Development and Machine Learning. I thrive on exploring the latest advancements and applying them to real-world challenges.
+                As a computer science engineer, I am deeply passionate about
+                technology, with a strong focus on Web Development and Machine
+                Learning. I thrive on exploring the latest advancements and
+                applying them to real-world challenges.
               </p>
             </div>
           </li>
@@ -28,7 +31,10 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Innovative Problem Solver</h3>
               <p>
-              My engineering background equips me to excel in solving intricate problems through innovative and creative approaches. I relish the opportunity to analyze complex issues and devise efficient solutions.
+                My engineering background equips me to excel in solving
+                intricate problems through innovative and creative approaches. I
+                relish the opportunity to analyze complex issues and devise
+                efficient solutions.
               </p>
             </div>
           </li>
@@ -37,7 +43,10 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Baseball Enthusiast</h3>
               <p>
-              Beyond my professional pursuits, I have a deep love for baseball. When I'm not coding or tackling tech challenges, you can often find me enjoying baseball games, savoring the excitement of every match.
+                Beyond my professional pursuits, I have a deep love for
+                baseball. When I'm not coding or tackling tech challenges, you
+                can often find me enjoying baseball games, savoring the
+                excitement of every match.
               </p>
             </div>
           </li>
@@ -46,3 +55,5 @@ export const About = () => {
     </section>
   );
 };
+
+export default About;
