@@ -21,7 +21,7 @@ function Projects() {
           </div>
         </div>
       </Link>
-      <Link to="/projects-info" state={{ message: "AI" }}>
+      <Link to="/projects-info" state={{ message: "Machine Learning" }}>
         <div>
           <p>2</p>
           <div>
