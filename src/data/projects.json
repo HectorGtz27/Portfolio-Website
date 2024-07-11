@@ -1,6 +1,7 @@
 [
   {
     "title": "Wildfire Tracker Web Application",
+    "Area": ["Machine Learning", "Web Development", "IoT"],
     "imageSrc": "projects/project1.png",
     "description": "Top 40 NASA Project focused on improving wildfire prediction with an 82.35% accurate model combining Convolutional Neural Network and LSTM technologies. We developed a responsive web app utilizing React.js, Next.js, TypeScript for reliability, Mapbox for 3D visualization, Tailwind CSS for UI design, and Vercel for hosting. This work aimed to advance wildfire management in underserved areas with limited connectivity.",
     "skills": [
@@ -25,6 +26,12 @@
   },
   {
     "title": "SIPO API Development for Encora Inc.",
+    "Area": [
+      "Backend Development",
+      "API Development",
+      "Database Management",
+      "Web Development"
+    ],
     "imageSrc": "projects/LOGOSIPO.png",
     "description": "The SIPO project at Encora Inc. developed a RESTful API for talent management using TypeScript, NodeJS, ExpressJS, and Sequelize, with PostgreSQL as the database and OAuth with Microsoft credentials for authentication. This backend service, guided by the MVC design pattern, enhances resource visibility and optimizes the management of clients, projects, vacancies, and employees.",
     "skills": [
@@ -43,6 +50,7 @@
   },
   {
     "title": "SIPO Frontend Development for Encora Inc.",
+    "Area": ["Frontend Development", "Web Development", "UI/UX Design"],
     "imageSrc": "projects/LOGOSIPO.png",
     "description": "The SIPO project at Encora Inc. developed a user-friendly frontend application for talent management using React, Zustand, Tailwind CSS, and TypeScript. This frontend service, deployed with Vercel, provides an intuitive interface for managing clients, projects, vacancies, and employees, enhancing resource visibility and operational efficiency. It integrates seamlessly with the backend RESTful API, leveraging Postman for API testing and Figma for design.",
     "skills": [
@@ -61,6 +69,7 @@
   },
   {
     "title": "Lexical Analyzer",
+    "Area": ["C++", "Lexical Analysis", "Syntax Highlighting"],
     "imageSrc": "projects/LexicalAnalyzer.png",
     "description": "This C++ project is a lexical analyzer for C, Python, and Racket code, specializing in syntax highlighting. It identifies keywords, literals, identifiers, operators, and special characters, generating HTML outputs that enhance readability. By converting S-expressions to regular expressions and escaping special characters, this project showcases expertise in C++, regex, and lexical analysis, improving code quality and analysis.",
     "skills": [
@@ -76,6 +85,7 @@
   },
   {
     "title": "BIOSYNC: Advanced Urban Gardening Ecosystem",
+    "Area": ["IoT", "Real-Time Data Processing", "Agile Project Management"],
     "imageSrc": "projects/huerto.jpg",
     "description": "Developed BIOSYNC, an IoT urban gardening system with NodeMCU ESP8266, integrating sensors for secure, real-time data via MQTT over WiFi. Created a Node-RED system with 2-second refresh rates and an interactive dashboard for monitoring. Used JIRA for agile project management, enhancing team collaboration and timely task delivery. This project refined my IoT, real-time data processing, and agile skills.",
     "skills": [
@@ -94,6 +104,12 @@
   },
   {
     "title": "InnovaCompras 🚀",
+    "Area": [
+      "TypeScript",
+      "API Integration",
+      "Frontend Development",
+      "Web Development"
+    ],
     "imageSrc": "projects/InnovaCompras.png",
     "description": "In a team effort, we developed a TypeScript-based web application for product management, incorporating API interactions for CRUD functionalities. The project, featuring a responsive Bootstrap design, search capabilities, and real-time form validation feedback, was deployed on Vercel. It underscores our collective proficiency in front-end development, collaboration, and modern web deployment techniques.",
     "skills": [
@@ -110,6 +126,7 @@
   },
   {
     "title": "Video Streaming App",
+    "Area": ["C++", "UML", "Object Oriented Programming"],
     "imageSrc": "projects/project3.jpg",
     "description": "In this project, we engineered a real-time video streaming application using C++ and object-oriented programming (OOP). The goal was to capture, process, and transmit live video streams. I used UML diagrams for design and managed source code on GitHub for efficient collaboration with the team. This project offered valuable experience in a dynamic era of on-demand video streaming.",
     "skills": ["C++", "UML", "Github", "Object Oriented Programming (OOP)"],
@@ -118,6 +135,7 @@
   },
   {
     "title": "Logistics Optimization in the Suez Canal",
+    "Area": ["C++", "Data Structures", "Algorithms"],
     "imageSrc": "projects/project6.jpg",
     "description": "In this project, we utilized C++ to develop software for better product control and optimized routing through Canal posts. We employed various data structures, including Linked Lists, BSTs, Splay Trees, Heap Trees, Graphs, Hash Tables, and algorithms like Merge Sort and Binary Search to efficiently manage and retrieve data. The project's focus was on collecting and processing extensive data to improve logistics, avoiding bottlenecks, and ensuring timely deliveries through advanced data structures and algorithms.",
     "skills": ["C++", "Data Structures", "Github"],
@@ -126,6 +144,7 @@
   },
   {
     "title": "Items Exchange System: Bridging Suppliers and Buyers",
+    "Area": ["C++", "UML", "Object Oriented Programming"],
     "imageSrc": "projects/project8.png",
     "description": "In collaboration with a team of three colleagues we developed an Items Exchange System using C++ and OOP principles. This program connects suppliers and buyers in a user-friendly platform. Suppliers showcase their products, and buyers find the best fit for their needs. I used UML diagrams for design clarity and managed source code through GitHub for efficient collaboration. This project streamlines transactions in a dynamic marketplace.",
     "skills": ["C++", "UML", "Github", "Object Oriented Programming (OOP)"],
@@ -135,6 +154,7 @@
 
   {
     "title": "James Webb Space Telescope Interactive Project",
+    "Area": ["Web Development", "Game Development", "Space Exploration"],
     "imageSrc": "projects/project9.png",
     "description": "Participated in the NASA Space Apps Challenge 2022 with an innovative project: an immersive video game and accompanying quiz platform highlighting the advanced capabilities of the James Webb Space Telescope. Utilized Python (via Pygame) for game development and harnessed HTML, CSS, and JavaScript for crafting the interactive quiz website.",
     "skills": ["HTML", "CSS", "Python"],
@@ -143,6 +163,7 @@
   },
   {
     "title": "Predictive Analysis of Caloric Intake Patterns",
+    "Area": ["Data Analysis", "Machine Learning", "Nutrition"],
     "imageSrc": "projects/project5.jpeg",
     "description": "I performed a multi-phase analysis of caloric intake utilizing Python within Google Colab. This analysis encompassed crucial stages such as data understanding, cleaning, and modeling. Leveraging libraries like Pandas, Numpy, and Scikit-learn, I developed predictive models to anticipate future caloric intake patterns based on historical data. This analysis provided valuable insights into potential dietary adjustments and their potential health impacts, contributing to informed decision-making in nutritional choices.",
     "skills": ["Python", "Scikit-learn", "Pandas", "NumPy"],
@@ -152,6 +173,7 @@
 
   {
     "title": "Geographic analysis of SARS-CoV-2 sequences",
+    "Area": ["Data Analysis", "R", "Epidemiology", "Genomics"],
     "imageSrc": "projects/project4.jpg",
     "description": "We conducted a collaborative study using R to assess global variations in SARS-CoV-2 genetic sequences. Our hypothesis centered around the idea that regional factors, including climate and geography, play a role in influencing noticeable changes in the original genetic makeup of SARS-CoV-2 observed in various countries.",
     "skills": ["R", "RStudio", "RMarkdown"],
@@ -161,6 +183,13 @@
 
   {
     "title": "Pig Game",
+    "Area": [
+      "Game Development",
+      "UI/UX",
+      "JavaScript",
+      "DOM",
+      "Web Development"
+    ],
     "imageSrc": "projects/PIGAME.png",
     "description": "The Pig Game project showcases my proficiency in JavaScript and UI/UX design, emphasizing an intuitive and engaging user interface. By employing DOM manipulation and event handling, I created a game that balances simplicity with interactive gameplay. This endeavor highlights my capability to design seamless user experiences and responsive web applications, focusing on straightforward game mechanics and visual clarity.",
     "skills": ["JavaScript", "HTML", "CSS", "DOM", "UI/UX"],
@@ -169,6 +198,13 @@
   },
   {
     "title": "Guess the Number",
+    "Area": [
+      "Game Development",
+      "UI/UX",
+      "JavaScript",
+      "DOM",
+      "Web Development"
+    ],
     "imageSrc": "projects/guessNumber.png",
     "description": " I developed a JavaScript game where users guess a number between 1 and 20, receiving hints and visual feedback. This includes background color changes and score adjustments to enhance user engagement. My work demonstrates expertise in JavaScript, DOM manipulation, and crafting intuitive user interactions.",
     "skills": ["JavaScript", "HTML", "CSS", "DOM", "UI/UX"],
@@ -177,6 +213,7 @@
   },
   {
     "title": "Drop Tower Simulation",
+    "Area": ["MATLAB", "Physics", "Simulation"],
     "imageSrc": "projects/project7.jpg",
     "description": "The drop tower is an attraction often found in amusement parks. Riders enter a gondola at ground level, the gondola rides up a vertical tower, then drops down. The brakes come on to stop the gondola as it approaches the bottom of the course. That way you experience free fall, followed by a sharp deceleration. One of the types of brakes used in these towers are magnetic, and they work based on eddy currents. With the help of the MATLAB language, we were able to simulate the behavior of these rides.",
     "skills": ["MATLAB"],
@@ -185,6 +222,7 @@
   },
   {
     "title": "Youtube Clone",
+    "Area": ["Frontend Development", "Web Development", "UI/UX Design"],
     "imageSrc": "projects/youtubepage.png",
     "description": "This project is a comprehensive replication of YouTube, one of the world's most popular video-sharing platforms, designed to demonstrate my proficiency in front-end development. The core of this project was built using HTML and CSS, focusing on creating a responsive and user-friendly interface that closely mimics the original YouTube site. Key features include a dynamic homepage displaying trending videos, a search functionality to explore videos, and individual video playback pages with details and recommended videos. Special attention was paid to the layout, ensuring that elements such as the navigation bar, video thumbnails, and comment sections are accurately represented.",
     "skills": ["HTML", "CSS"],
@@ -193,6 +231,13 @@
   },
   {
     "title": "Rock-Paper-Scissors Game Development",
+    "Area": [
+      "Game Development",
+      "JavaScript",
+      "DOM",
+      "Local Storage",
+      "Web Development"
+    ],
     "imageSrc": "projects/ROCKGAME.png",
     "description": "I created a rock-paper-scissors game with JavaScript, featuring auto-play, real-time score updates, and keyboard shortcuts for enhanced interaction. The game logic, coupled with score persistence using local storage, showcases my proficiency in JavaScript, DOM manipulation, and event handling.",
     "skills": ["JavaScript", "HTML", "CSS", "DOM", "Local Storage"],
@@ -202,6 +247,7 @@
 
   {
     "title": "Phoenix Eye Website",
+    "Area": ["Web Development", "UI/UX Design"],
     "imageSrc": "projects/project2.png",
     "description": "I designed and programmed the Phoenix Eye project's website, a demo that highlights our wildfire prediction project. This platform provides a glimpse into the project's potential effectiveness and features showcasing machine learning capabilities, simulated customer testimonials, and hypothetical support from partnering companies. The website, stemming from our acclaimed Rocket Hacks initiative, serves as a key informational and engagement tool for underserved communities and stakeholders interested in advanced wildfire management concepts.",
     "skills": ["HTML", "CSS", "JavaScript"],
