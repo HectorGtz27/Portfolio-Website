@@ -9,8 +9,41 @@ function Projects() {
   return (
     <section className={styles.container} id="projects">
       <h2 className={styles.title}>Projects</h2>
-      <Link to="/projects-info">
-        <div>Ir a Projects Info</div>
+      <Link to="/projects-info" state={{ message: "Web Development" }}>
+        <div>
+          <p>1</p>
+          <div>
+            <div>
+              <p>Web Development</p>
+              <p>Info</p>
+            </div>
+            <div>+</div>
+          </div>
+        </div>
+      </Link>
+      <Link to="/projects-info" state={{ message: "AI" }}>
+        <div>
+          <p>2</p>
+          <div>
+            <div>
+              <p>AI</p>
+              <p>Info</p>
+            </div>
+            <div>+</div>
+          </div>
+        </div>
+      </Link>
+      <Link to="/projects-info" state={{ message: "IoT" }}>
+        <div>
+          <p>3</p>
+          <div>
+            <div>
+              <p>IoT</p>
+              <p>Info</p>
+            </div>
+            <div>+</div>
+          </div>
+        </div>
       </Link>
       <div className={styles.projects}>
         {projects.map((project, id) => {

@@ -1,12 +1,15 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 
 function ProjectInfoScreen() {
+  const location = useLocation();
+  const message = location.state?.message || "No message";
   return (
     <div>
-      <h2>ProjectInfoScreen</h2>
+      <h2>Project Info Screen</h2>
+      <p>{message}</p>
       <Link to="/">
-        <div>Regresar a la página principal</div>
+        <div>Go Back</div>
       </Link>
     </div>
   );
