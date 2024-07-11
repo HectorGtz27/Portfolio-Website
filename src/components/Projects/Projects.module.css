@@ -9,6 +9,14 @@
   flex-direction: column;
 }
 
+.title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
+
 /* TOP CARD STYLES */
 .topCardContainer {
   height: 80%;
