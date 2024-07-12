@@ -7,11 +7,14 @@
   background: linear-gradient(180deg, #576cbc 0%, #132a53 100%);
   box-shadow: 0 16px 14px 0 #04152d;
   padding: 18px 24px;
-  max-width: 345px;
+  width: 800px;
+  height: 1400px;
 }
 
 .image {
   margin-bottom: 26px;
+  width: 100%;
+  height: 500px;
 }
 
 .title {
@@ -34,7 +37,6 @@
   gap: 6px;
   list-style: none;
 }
-
 
 .skill {
   font-size: 25px;
@@ -60,4 +62,3 @@
   background: var(--color-primary);
   padding: 1px 22px;
 }
-
