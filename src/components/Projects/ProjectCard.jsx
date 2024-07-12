@@ -1,9 +1,10 @@
 import React from "react";
 import styles from "./ProjectCard.module.css";
 import { getImageUrl } from "../../utils";
+import { FaAward } from "react-icons/fa";
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
+  project: { title, imageSrc, description, skills, demo, source, accolades },
 }) => {
   return (
     <div className={styles.container}>
@@ -12,7 +13,14 @@ export const ProjectCard = ({
         alt={`Image of ${title}`}
         className={styles.image}
       />
+
       <h3 className={styles.title}>{title}</h3>
+      {accolades && (
+        <div className={styles.accoladesContainer}>
+          <FaAward size={30} />
+          <p className={styles.accoladesText}>{accolades}</p>
+        </div>
+      )}
       <p className={styles.description}>{description}</p>
       <ul className={styles.skills}>
         {skills.map((skill, id) => {
