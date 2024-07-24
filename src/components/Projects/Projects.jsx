@@ -35,7 +35,7 @@ function Projects() {
         <Link
           className={styles.link}
           to="/projects-info"
-          state={{ message: "Machine Learning" }}
+          state={{ message: "Data Science" }}
         >
           <div className={`${styles.gridItem} ${styles.item2}`}>
             <div className={styles.gridItemContent}>
@@ -45,7 +45,7 @@ function Projects() {
 
               <div className={styles.bottomCard}>
                 <div className={styles.sectionDescription}>
-                  <p className={styles.sectionTitle}>Machine Learning</p>
+                  <p className={styles.sectionTitle}>Data Sience</p>
                   <p className={styles.sectioSubtitle}>Info</p>
                 </div>
                 <FiArrowUpRight size={62} />

@@ -1,7 +1,7 @@
 [
   {
     "title": "Wildfire Tracker Web Application",
-    "Area": ["Machine Learning", "Web Development", "IoT"],
+    "Area": ["Data Science", "Web Development", "IoT"],
     "accolades": "NASA Hackthon Winner",
     "imageSrc": "projects/project1.png",
     "description": "Top 40 NASA Project focused on improving wildfire prediction with an 82.35% accurate model combining Convolutional Neural Network and LSTM technologies. We developed a responsive web app utilizing React.js, Next.js, TypeScript for reliability, Mapbox for 3D visualization, Tailwind CSS for UI design, and Vercel for hosting. This work aimed to advance wildfire management in underserved areas with limited connectivity.",
@@ -11,7 +11,7 @@
       "TypeScript",
       "Tailwind CSS",
       "Python",
-      "Data Science",
+      "Machine Learning",
       "LoRaWAN",
       "NumPy",
       "Scikit-learn",
