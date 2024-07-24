@@ -11,7 +11,7 @@
       "TypeScript",
       "Tailwind CSS",
       "Python",
-      "Machine Learning",
+      "Data Science",
       "LoRaWAN",
       "NumPy",
       "Scikit-learn",
@@ -164,7 +164,7 @@
   },
   {
     "title": "Predictive Analysis of Caloric Intake Patterns",
-    "Area": ["Data Analysis", "Machine Learning", "Nutrition"],
+    "Area": ["Data Science", "Machine Learning", "Nutrition"],
     "imageSrc": "projects/project5.jpeg",
     "description": "I performed a multi-phase analysis of caloric intake utilizing Python within Google Colab. This analysis encompassed crucial stages such as data understanding, cleaning, and modeling. Leveraging libraries like Pandas, Numpy, and Scikit-learn, I developed predictive models to anticipate future caloric intake patterns based on historical data. This analysis provided valuable insights into potential dietary adjustments and their potential health impacts, contributing to informed decision-making in nutritional choices.",
     "skills": ["Python", "Scikit-learn", "Pandas", "NumPy"],
@@ -174,7 +174,7 @@
 
   {
     "title": "Geographic analysis of SARS-CoV-2 sequences",
-    "Area": ["Data Analysis", "R", "Epidemiology", "Genomics"],
+    "Area": ["Data Science", "R", "Epidemiology", "Genomics"],
     "imageSrc": "projects/project4.jpg",
     "description": "We conducted a collaborative study using R to assess global variations in SARS-CoV-2 genetic sequences. Our hypothesis centered around the idea that regional factors, including climate and geography, play a role in influencing noticeable changes in the original genetic makeup of SARS-CoV-2 observed in various countries.",
     "skills": ["R", "RStudio", "RMarkdown"],
