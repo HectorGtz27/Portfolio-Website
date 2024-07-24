@@ -1,5 +1,4 @@
 import React from "react";
-
 import styles from "./Certifications.module.css";
 import certificate from "../../data/certifications.json";
 import { getImageUrl } from "../../utils";
@@ -15,8 +14,9 @@ function Certifications() {
               href={certificateItem.url}
               target="_blank"
               className={styles.link}
+              key={id}
             >
-              <li key={id} className={styles.certificateItem}>
+              <li className={styles.certificateItem}>
                 <img
                   src={getImageUrl(certificateItem.imageSrc)}
                   className={styles.certificateImg}
