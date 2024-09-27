@@ -1,10 +1,23 @@
 [
   {
+    "role": "Incoming Research Assitant",
+    "organisation": "Harvard Medical School",
+    "startDate": "Jan, 2025",
+    "endDate": "",
+    "experiences": [
+      "Working under Dr. Jason Sutin and Drs. Pei-Yi (Ivy) Im in the Fetal Neonatal Neuroimaging and Developmental Science Center Research (FNNDC) in the Boston Children's Hospital"
+    ],
+    "imageSrc": "history/harvard.svg"
+  },
+  {
     "role": "Technological Scientific-Based Entrepreneurship Program (EBCT)",
     "organisation": "TEC",
     "startDate": "Jan, 2024",
     "endDate": "Present",
-    "experiences": ["Focused on fire trajectory prediction using technology and science", " Part of a team applying machine learning for fire prevention"],
+    "experiences": [
+      "Focused on fire trajectory prediction using technology and science",
+      " Part of a team applying machine learning for fire prevention"
+    ],
     "imageSrc": "history/tec.png"
   },
   {
@@ -12,7 +25,11 @@
     "organisation": "NASA",
     "startDate": "Oct, 2023",
     "endDate": "Jan, 2024",
-    "experiences": [" Part of the best top 40 projects in a global NASA competition", "Developed an accurate wildfire prediction system", "Worked with modern web technologies and data visualization tools."],
+    "experiences": [
+      " Part of the best top 40 projects in a global NASA competition",
+      "Developed an accurate wildfire prediction system",
+      "Worked with modern web technologies and data visualization tools."
+    ],
     "imageSrc": "history/nasa.png"
   },
   {

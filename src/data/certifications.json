@@ -1,5 +1,11 @@
 [
   {
+    "name": "Fundamental Neuroscience for Neuroimaging",
+    "organization": "Johns Hopkins University",
+    "imageSrc": "certifications/johnHopkins.jpg",
+    "url": "https://www.coursera.org/account/accomplishments/verify/M4WNK8PS3LAW"
+  },
+  {
     "name": "Perform Foundational Data, ML, and AI Tasks in Google Cloud",
     "organization": "Google Cloud Training Online",
     "imageSrc": "certifications/gcp.png",
