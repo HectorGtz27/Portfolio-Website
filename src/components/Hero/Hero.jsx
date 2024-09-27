@@ -9,8 +9,9 @@ function Hero() {
         <h1 className={styles.title}>Hi, I'm Hector Gutierrez</h1>
         <p className={styles.description}>
           I'm a passionate Computer Science student and Incoming Research
-          Assistant at Tecnológico de Monterrey, Campus Sonora Norte. Reach out
-          if you'd like to learn more!
+          Assistant at Harvard Medical School, currently studying at Tecnológico
+          de Monterrey, Campus Sonora Norte. Reach out if you'd like to learn
+          more!
         </p>
         <a href="mailto:alan.gtz51@gmail.com" className={styles.contactBtn}>
           Contact Me
